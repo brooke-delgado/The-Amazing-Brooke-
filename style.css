@@ -1,0 +1,63 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #2C2B30;
+  }
+
+  h1, h2, a {
+    color: white;
+  }
+
+  h1 {
+    letter-spacing: 5px;   
+  }
+
+   header a {
+    font-size: 23px;
+    text-decoration: none;
+    letter-spacing: 3px;
+   }
+
+   header a:hover {
+     color: pink;
+   }
+  
+
+   header {
+    text-align: center;
+    width: 100%;
+    }
+
+  img {
+    max-width: 60%;
+    background: white;
+    border-radius: 50%;
+    align-content: center;
+  }
+
+.flex-container {
+    display: flex;
+    width:fit-content;
+    background-image: url(https://github.com/brooke-delgado/The-Amazing-Brooke-/blob/main/istockphoto-1160568525-612x612.jpeg?raw=true);
+    height: 50%;
+    width: 100%;
+  } 
+  
+  .flex-container div {
+    background-color:white;
+    margin: 40px;
+    padding: 60px;
+    font-size: 30px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px #2C2B30;
+    text-align: center;
+    height: 250px;
+    width: 450px;
+
+  }
+
+ /* mobile layout*/
+ @media screen and (max-width:768px) {
+ .flex-container{
+  display: flex;
+  flex-direction: column;
+}
